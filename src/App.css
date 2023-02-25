@@ -4,18 +4,24 @@
   box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 a{
   text-decoration: none;
   color: black;
 }
 
 a:hover{
-  color: blue;
-  border-bottom: solid 1px blue;
+  color: cornflowerblue;
+  border-bottom: solid 1px cornflowerblue;
 }
 .navbar{
   padding: 1.25em;
   width: 100%;
+  position: sticky; top: 0;
+  background-color: white;
 }
 
 nav{
@@ -28,14 +34,14 @@ nav ul{
 }
 
 .nav-item{
-  margin-left: 1.25em;
+  margin: 0 2em;
   list-style: none;
 }
 
 .landing{
   display: flex;
   align-items: center;
-  height: 80vh;
+  height: 100vh;
 }
 
 .landing-title{
@@ -46,5 +52,61 @@ nav ul{
 }
 
 span{
-  color: blue;
+  color: cornflowerblue;
+}
+
+#about{
+  height: 100vh;
+  background-color: cornflowerblue;
+  color: white;
+}
+
+.section-title{
+  font-size: 2rem;
+  margin: 1em;
+}
+
+.flex{
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.about-content{
+  width: 50%;
+}
+
+.me{
+  width: 50%;
+  margin-left: 1em;
+}
+
+.project-image:hover{
+  opacity: 60%;
+}
+
+#contact{
+  height: 100vh;
+  background-color: cornflowerblue;
+  color: white;
+  text-align: center;
+  padding: 3em;
+  font-size: 1.5rem;
+}
+
+.contact-info{
+  list-style: none;
+  margin: 1em;
+}
+
+.contact-link{
+  color: white;
+  font-weight: bold;
+}
+
+.contact-link:hover{
+  color: white;
+  opacity: 60%;
+  border-bottom: solid white 1px;
 }
