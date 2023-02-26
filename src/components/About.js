@@ -4,9 +4,9 @@ function About(){
             <div className="flex">
                 <div className="about-content">
                     <h1 className="section-title">About me</h1>
-                    <p>An engineering graduate looking to transition into web development. I bring a unique set of skills and problem-solving abilities to the table. My background in engineering has given me a strong foundation in math, logic, and analytical thinking, which will serve me well in the world of software development.</p>
+                    <p className="about-text">Hello and welcome to my portfolio! My name is Zein and I am an aspiring software engineer. I am passionate about using technology to solve complex problems and make a positive impact on the world. I have experience in React, JavaScript, HTML, CSS and I am always eager to learn new tools and techniques to improve my craft. In my free time, I enjoy working on personal projects. Thank you for taking the time to explore my portfolio and I look forward to connecting with you!</p>
                 </div>
-                <img src="https://media.licdn.com/dms/image/D4E03AQF_G6qx0FzOQQ/profile-displayphoto-shrink_800_800/0/1665866307830?e=1682553600&v=beta&t=4PFh0aVp0aPGBOyALuqF6EXYrBzV5w7opckfoF3AYwM" 
+                <img src="/images/me.png" 
                 alt="me" className="me" />
             </div>
         </section>

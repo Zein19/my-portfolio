@@ -8,6 +8,14 @@ html{
   scroll-behavior: smooth;
 }
 
+body{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+section{
+  padding: 2em;
+}
+
 a{
   text-decoration: none;
   color: black;
@@ -27,6 +35,7 @@ a:hover{
 nav{
   display: flex;
   justify-content: space-between;
+  animation: fadeIn 5s;
 }
 
 nav ul{
@@ -41,7 +50,8 @@ nav ul{
 .landing{
   display: flex;
   align-items: center;
-  height: 100vh;
+  height: 90vh;
+  animation: fadeIn 5s;
 }
 
 .landing-title{
@@ -53,6 +63,11 @@ nav ul{
 
 span{
   color: cornflowerblue;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
 #about{
@@ -71,15 +86,49 @@ span{
   width: 90%;
   margin: 0 auto;
   justify-content: space-between;
+  margin-bottom: 2em;
 }
 
 .about-content{
   width: 50%;
 }
 
+.about-text{
+  font-size: 1.5rem;
+  letter-spacing: 0.1em;
+}
+
 .me{
   width: 50%;
   margin-left: 1em;
+  height: fit-content;
+}
+
+.project-content{
+  width: 50%;
+}
+
+.project-title{
+  padding: 0.5em;
+}
+
+.source-btn{
+  border: solid 2px cornflowerblue;
+  background-color: white;
+  margin: 1em;
+  padding: 1em;
+  border-radius: 5px;
+  color: cornflowerblue;
+  text-transform: uppercase;
+}
+
+.source-btn:hover{
+  opacity: 60%;
+}
+
+.project-image{
+  width: 500px;
+  border-radius: 10px;
 }
 
 .project-image:hover{
@@ -98,6 +147,10 @@ span{
 .contact-info{
   list-style: none;
   margin: 1em;
+}
+
+.contact-item{
+  padding: 0.3em;
 }
 
 .contact-link{
