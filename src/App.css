@@ -71,7 +71,7 @@ span{
 }
 
 #about{
-  height: 100vh;
+  min-height: 100vh;
   background-color: cornflowerblue;
   color: white;
 }
@@ -127,7 +127,7 @@ span{
 }
 
 .project-image{
-  width: 500px;
+  width: 31.25em;
   border-radius: 10px;
 }
 
@@ -136,7 +136,7 @@ span{
 }
 
 #contact{
-  height: 100vh;
+  min-height: 100vh;
   background-color: cornflowerblue;
   color: white;
   text-align: center;
@@ -162,4 +162,25 @@ span{
   color: white;
   opacity: 60%;
   border-bottom: solid white 1px;
+}
+
+@media (max-width: 800px){
+  .flex{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 2em;
+  }
+
+  .about-content{
+    width: 100%;
+  }
+
+  .me{
+    width: 100%;
+    margin-left: 1em;
+    height: fit-content;
+  }
 }
