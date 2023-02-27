@@ -45,6 +45,7 @@ nav ul{
 .nav-item{
   margin: 0 2em;
   list-style: none;
+  font-weight: bold;
 }
 
 .landing{
@@ -101,7 +102,6 @@ span{
 .me{
   width: 50%;
   margin-left: 1em;
-  height: fit-content;
 }
 
 .project-content{
@@ -136,7 +136,6 @@ span{
 }
 
 #contact{
-  min-height: 100vh;
   background-color: cornflowerblue;
   color: white;
   text-align: center;
@@ -165,6 +164,44 @@ span{
 }
 
 @media (max-width: 800px){
+
+  .navbar{
+    padding: 0.75em;
+  }
+
+  nav ul{
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: white;
+    display: none;
+    z-index: 1;
+  }
+
+  .nav-item{
+    margin: 1em 0;
+  }
+
+  .nav-toggle{
+    display: block;
+    position: absolute;
+    top: 0.75em;
+    right: 0.75em;
+    font-size: 2em;
+    cursor: pointer;
+  }
+
+  .nav-toggle img{
+    width: 1em;
+  }
+
+  .show{
+    display: flex;
+  }
+
+
   .flex{
     display: flex;
     flex-direction: column;
@@ -180,7 +217,24 @@ span{
 
   .me{
     width: 100%;
-    margin-left: 1em;
-    height: fit-content;
+    margin-top: 1em;
+  }
+
+  .project-content{
+    width: 100%;
+  }
+
+  .project-image{
+    width: 100%;
+    margin-top: 1em;
+  }
+
+  .source-btn{
+    border: solid 2px cornflowerblue;
+    background-color: white;
+    padding: 1em;
+    border-radius: 5px;
+    color: cornflowerblue;
+    text-transform: uppercase;
   }
 }
