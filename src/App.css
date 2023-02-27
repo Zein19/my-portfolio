@@ -184,14 +184,15 @@ span{
     top: 100%;
     left: 0;
     right: 0;
-    background-color: white;
     display: none;
     justify-content: center;
-    margin-left: 1em;
+    padding-left: 1em;
+    background-color: white;
   }
 
   .nav-item{
     margin: 1em 0;
+    font-weight: bold;
   }
 
   .nav-toggle{
