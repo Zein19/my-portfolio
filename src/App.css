@@ -34,18 +34,23 @@ a:hover{
 
 nav{
   display: flex;
-  justify-content: space-between;
   animation: fadeIn 5s;
+  justify-content: space-between;
 }
 
 nav ul{
   display: flex;
+  justify-content: right;
 }
 
 .nav-item{
   margin: 0 2em;
   list-style: none;
   font-weight: bold;
+}
+
+.logo {
+  height: 2em
 }
 
 .landing{
@@ -161,6 +166,10 @@ span{
   color: white;
   opacity: 60%;
   border-bottom: solid white 1px;
+}
+
+.nav-toggle{
+  display: none;
 }
 
 @media (max-width: 800px){

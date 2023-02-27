@@ -11,9 +11,8 @@ function Navbar(){
     return(
         <header className="navbar">
             <nav>
-                
+                <a className="nav-item" href="#top"><img className="logo" src="/images/logo-no-background.png" alt="logo" /></a>
                 <ul className={showNav ? "show" : ""}>
-                    <li className="nav-item"><a href="#top">ZS</a></li>
                     <li className="nav-item"><a href="#about">About</a></li>
                     <li className="nav-item"><a href="#projects">Projects</a></li>
                     <li className="nav-item"><a href="#contact">Contact Me</a></li>
