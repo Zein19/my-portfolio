@@ -19,10 +19,10 @@ function Navbar(){
                     <li className="nav-item"><a href="CV" download="ZeinSharif-CV">My CV</a></li>
                 </ul>
                 
-                { showNav ? null :(
+                
                     <button className="nav-toggle" onClick={toggleNavBar}>
                     <img src="/images/navtoggle.png" alt="nav toggle" />
-                </button>)}
+                </button>
             </nav>
         </header>
     )
