@@ -16,7 +16,7 @@ function Navbar(){
                     <li className="nav-item"><a href="#about">About</a></li>
                     <li className="nav-item"><a href="#projects">Projects</a></li>
                     <li className="nav-item"><a href="#contact">Contact Me</a></li>
-                    <li className="nav-item"><a href="ZeinSharif-CV .pdf" download="ZeinSharif-CV">My CV</a></li>
+                    <li className="nav-item"><a href="ZeinCV.pdf" download="ZeinCV">My CV</a></li>
                 </ul>
                 
                 
